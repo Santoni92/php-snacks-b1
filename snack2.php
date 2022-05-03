@@ -15,5 +15,7 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
     }else{
         echo('Accesso riuscito!!!');
     }
+ }else{
+     echo("Inserire parametri nell'url!!!");
  }
 ?>
