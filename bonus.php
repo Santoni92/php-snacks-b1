@@ -28,7 +28,7 @@ for($i = 0; $i < count($alunni); $i++)
     {
         $sommaVotiSingoloAlunno += $alunni[$i]["voti"][$j];
     }
-    $mediaVotiSingoloAlunno = $sommaVotiSingoloAlunno / count($alunni[$i]["voti"]);
+    $mediaVotiSingoloAlunno = round($sommaVotiSingoloAlunno / count($alunni[$i]["voti"]),2);
     echo($alunni[$i]["nome"] . ' ' . $alunni[$i]["cognome"] . ' ' . 'media dei voti: ' . $mediaVotiSingoloAlunno);
     echo('</p>');
 }
