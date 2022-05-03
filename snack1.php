@@ -8,7 +8,9 @@ Olimpia Milano - Cantù | 55-60
 
  
  //phpinfo();
- $partita1 = [""]
+ $partite = [
+     
+ ]
 
 
 
