@@ -9,7 +9,7 @@ $paragrafo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentes
              Maecenas egestas ex risus, a consequat elit dignissim malesuada. Nunc convallis interdum enim, ac placerat mauris scelerisque et.
              Nunc sit amet interdum risus, vel blandit sem. Sed tortor libero, rhoncus et erat eget, mollis rutrum eros.
              Donec cursus ornare massa, id ullamcorper risus laoreet quis. ";
-$arraySingoliParagrafi[] = explode(' ',$paragrafo);;
+$arraySingoliParagrafi[] = explode(' ',$paragrafo);
 var_dump($arraySingoliParagrafi);
 
 
