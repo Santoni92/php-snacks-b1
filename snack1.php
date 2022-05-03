@@ -6,13 +6,27 @@ Creiamo un array contenente le partite di basket di un’ipotetica tappa del cal
 Olimpia Milano - Cantù | 55-60
  */
 
- 
  //phpinfo();
+ 
  $partite = [
-     
- ]
+    [
+        'squadradicasa'=> 'Milano',
+        'squadraospite' => 'Roma',
+        'punteggiosquadradicasa' => 20,
+        'punteggiosquadraospite' => 22
+    ],
+    [
+        'squadradicasa'=> 'Torino',
+        'squadraospite' => 'Verona',
+        'punteggiosquadradicasa' => 31,
+        'punteggiosquadraospite' => 43
+    ]
+ ];
 
-
+for($i = 0; $i < count($partite);$i++)
+{
+    echo($partite[$i]['squadradicasa'] . '-' . $partite[$i]['squadraospite'] . '|' . $partite[$i]['punteggiosquadradicasa'] . '-' . $partite[$i]['punteggiosquadraospite']);
+}
 
 
  ?>
