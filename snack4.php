@@ -13,10 +13,15 @@ $paragrafo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentes
  $paragrafoSenzaSpazi = str_replace(" ","",$paragrafo);   //ottengo una stringa
  //echo( $paragrafoSenzaSpazi);
 $arrayPragrafiSingoli = explode('.',$paragrafoSenzaSpazi);  //ottengo un array
-//var_dump($arrayPragrafiSingoli);
+
 ?>
+
 <h2>Paragrafo con gli spazi tra le parole rimossi:</h2>
 <p><?php echo($paragrafoSenzaSpazi) ?></p>
 
 <h2>Array  formato dai vari paragrafi ottenuti dalle frasi del  paragrafo intero(senza gli spazi) separate dal punto:</h2>
-<p> <?php var_dump($arrayPragrafiSingoli) ?></p>
+<?php 
+echo('<pre>');
+var_dump($arrayPragrafiSingoli);
+echo('</pre>');
+?>

@@ -2,7 +2,7 @@
 /*Snack 3
 Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà contenere lo stesso numero più di una volta */
 $arrayNumeriCasuali = [];
-for($i = 0; $i < 15; $i++)
+while(count($arrayNumeriCasuali < 15))
 {
     $numeroCasuale = rand(1,100);
     if(!in_array($numeroCasuale,$arrayNumeriCasuali))
@@ -11,5 +11,7 @@ for($i = 0; $i < 15; $i++)
     }
 }
 //echo("L\'array dei numeri casuali risulta: $arrayNumeriCasuali");
+echo('<pre>');
 var_dump($arrayNumeriCasuali);
+echo('</pre>');
 ?>
